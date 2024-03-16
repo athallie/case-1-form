@@ -1,0 +1,17 @@
+#index-cont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+#index-cont .row {
+    width: 100%;
+}
+
+#left-column, #right-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
