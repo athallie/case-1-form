@@ -19,7 +19,7 @@
     width: 100%;
 }
 
-#left-column, #right-column{
+#left-column, #right-column {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,6 +65,7 @@
     background-color: lightgray;
     color: darkslateblue;
 }
+
 #submit-button input:active {
     color: darkblue;
 }
@@ -98,7 +99,7 @@ input[type=number] {
 }
 
 #right-column .card {
-    width:  100%;
+    width: 100%;
     padding-block: .5em;
     background-color: #FFE5B4;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
