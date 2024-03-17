@@ -32,11 +32,17 @@
 
 .form-control, .input-group-text {
     border-color: gray;
+    border-radius: .25em;
+}
+
+.form-control {
+    padding-left: 1em;
 }
 
 .input-group-text {
     background-color: #607EAA;
     color: white;
+    padding-inline: 1em;
 }
 
 #submit-button {
@@ -112,4 +118,12 @@ header nav {
 
 header .navbar-brand {
     color: #ECF4D6;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.form-control:focus::placeholder {
+    color: lightgray;
 }
