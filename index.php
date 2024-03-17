@@ -2,11 +2,12 @@
 include_once 'includes/header.php';
 ?>
     <!doctype html>
+    <html lang="en">
     <body>
     <div id="index-outer-container" class="container-fluid">
         <div class="row row-outer">
             <div id="left-column" class="col pt-5">
-                <form id="variable-form" action="pages/output.php" method="post">
+                <form id="variable-form" method="post" action="pages/output.php">
                     <div class="input-group">
                         <span class="input-group-text" id="unit-r">Rp.</span>
                         <input class="form-control form-control-lg" type="number" id="var-r" name="var-r" step="any" min="0"
@@ -75,4 +76,4 @@ include_once 'includes/header.php';
     </body>
     </html>
 <?php
-include_once 'includes/footer.php';
+//include_once 'includes/footer.php';
