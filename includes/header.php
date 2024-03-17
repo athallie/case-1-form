@@ -15,9 +15,9 @@
 <body>
 <header class="bg bg-danger">
     <div id="header-cont" class="container-fluid bg bg-warning">
-        <div class="row">
+        <div class="row text-center">
             <h1>
-                HEADER
+                Kalkulator Future Value of Ordinary Annuity
             </h1>
         </div>
     </div>

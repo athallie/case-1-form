@@ -9,16 +9,16 @@ include_once 'includes/header.php';
                 <form id="variable-form" action="pages/output.php" method="post">
                     <div class="input-group">
                         <span class="input-group-text" id="unit-r">Rp.</span>
-                        <input class="form-control form-control-lg" type="number" id="var-r" step="any" min="0"
+                        <input class="form-control form-control-lg" type="number" id="var-r" name="var-r" step="any" min="0"
                                placeholder="21000" required>
                     </div>
                     <div class="input-group">
-                        <input class="form-control form-control-lg" type="number" id="var-i" step="any" min="0"
+                        <input class="form-control form-control-lg" type="number" id="var-i" name="var-i" step="any" min="0"
                                placeholder="i" oninput="validateDivisor()" required>
                         <span class="input-group-text" id="unit-i">%</span>
                     </div>
                     <div class="input-group">
-                        <input class="form-control form-control-lg" type="number" id="var-n" step="any" min="0"
+                        <input class="form-control form-control-lg" type="number" id="var-n" name="var-n" step="any" min="0"
                                placeholder="n" required>
                         <span class="input-group-text" id="unit-n">pembayaran</span>
                     </div>
