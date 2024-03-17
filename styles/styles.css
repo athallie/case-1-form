@@ -34,16 +34,25 @@
     border-color: gray;
 }
 
+.input-group-text {
+    background-color: #607EAA;
+    color: white;
+}
+
 #submit-button {
     display: flex;
     justify-content: center;
 }
 
 #submit-button input {
+    width: 50%;
+    height: 2.5em;
     padding-block: .25em;
     padding-inline: 1em;
-    background-color: #f0edef;
-    border-color: #6f6f6f;
+    background-color: #E8AA42;
+    color: white;
+    border-radius: 1.5em;
+    font-size: medium;
 }
 
 #submit-button input:hover {
@@ -85,10 +94,22 @@ input[type=number] {
 #right-column .card {
     width:  100%;
     padding-block: .5em;
-    background-color: #f0edef;
+    background-color: #FFE5B4;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 #right-column .card-body {
     font-size: .75rem;
+}
+
+header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header nav {
+    background-color: #607EAA;
+}
+
+header .navbar-brand {
+    color: #ECF4D6;
 }
