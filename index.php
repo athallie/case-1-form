@@ -11,7 +11,7 @@ include_once 'includes/header.php';
                     <div class="input-group">
                         <span class="input-group-text" id="unit-r">Rp.</span>
                         <input class="form-control form-control-lg" type="number" id="var-r" name="var-r" step="any" min="0"
-                               placeholder="21000" required>
+                               placeholder="R" required>
                     </div>
                     <div class="input-group">
                         <input class="form-control form-control-lg" type="number" id="var-i" name="var-i" step="any" min="0"
@@ -49,8 +49,8 @@ include_once 'includes/header.php';
                             <div class="card-body">
                                 <h4>Variabel</h4>
                                 <p>
-                                    R = Pembayaran/deposit yang dilakukan di setiap period <br>
-                                    i = Bunga per periode <br>
+                                    R = Pembayaran/deposit yang dilakukan di setiap period (dalam Rupiah) <br>
+                                    i = Bunga per periode (dalam persentase) <br>
                                     n = Jumlah total pembayaran <br>
                                 </p>
                             </div>
@@ -76,4 +76,4 @@ include_once 'includes/header.php';
     </body>
     </html>
 <?php
-//include_once 'includes/footer.php';
+include_once 'includes/footer.php';
