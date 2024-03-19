@@ -2,17 +2,17 @@
 include_once 'includes/header.php';
 ?>
     <!doctype html>
-    <html>
+page2-footer
+    <html lang="en">
     <body>
     <div id="index-outer-container" class="container-fluid">
         <div class="row row-outer">
             <div id="left-column" class="col pt-5">
-                <form id="variable-form" action="pages/output.php" method="post">
+                <form id="variable-form" method="post" action="pages/output.php">
                     <div class="input-group">
                         <span class="input-group-text" id="unit-r">Rp.</span>
-                        <input class="form-control form-control-lg" type="number" id="var-r" name="var-r" step="any"
-                               min="0"
-                               placeholder="21000" required>
+                        <input class="form-control form-control-lg" type="number" id="var-r" name="var-r" step="any" min="0"
+                               placeholder="R" required>
                     </div>
                     <div class="input-group">
                         <input class="form-control form-control-lg" type="number" id="var-i" name="var-i" step="any"
@@ -55,8 +55,8 @@ include_once 'includes/header.php';
                             <div class="card-body">
                                 <h4>Variabel</h4>
                                 <p>
-                                    R = Pembayaran/deposit yang dilakukan di setiap period <br>
-                                    i = Bunga per periode <br>
+                                    R = Pembayaran/deposit yang dilakukan di setiap period (dalam Rupiah) <br>
+                                    i = Bunga per periode (dalam persentase) <br>
                                     n = Jumlah total pembayaran <br>
                                 </p>
                             </div>
