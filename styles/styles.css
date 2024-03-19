@@ -143,15 +143,16 @@ header .navbar-brand {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fff;
+
+
 }
 
 .output-card {
-    width: 400px;
+    width: 450px;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    background-color: #d9d9d9;
+    background-color: #FFE5B4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -162,6 +163,7 @@ header .navbar-brand {
 }
 
 .back-button {
+
     text-align: center;
     margin-top: 20px;
     padding: 10px 20px;
@@ -172,12 +174,13 @@ header .navbar-brand {
     transition: background-color 0.3s; /* Efek transisi warna latar belakang */
 }
 
+
 /*Footer Styles*/
 footer {
     background-color: #607EAA;
-    color: #ECF4D6;
     text-align: center;
     padding: 3rem 0;
     position: relative;
+    color: #ECF4D6;
 
 }
