@@ -12,7 +12,7 @@ include_once 'includes/header.php';
                         <span class="input-group-text" id="unit-r">Rp.</span>
                         <input class="form-control form-control-lg" type="number" id="var-r" name="var-r" step="any"
                                min="0"
-                               placeholder="21000" required>
+                               placeholder="R" required>
                     </div>
                     <div class="input-group">
                         <input class="form-control form-control-lg" type="number" id="var-i" name="var-i" step="any"
