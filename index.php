@@ -2,7 +2,7 @@
 include_once 'includes/header.php';
 ?>
     <!doctype html>
-    <html lang="en">
+    <html lang="id">
     <body>
     <div id="index-outer-container" class="container-fluid">
         <div class="row row-outer">
