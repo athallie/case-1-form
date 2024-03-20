@@ -71,11 +71,6 @@
     background-color: rgba(232,170,66,0.78);
 }
 
-
-.btn:hover {
-    color: black;
-}
-
 /*Disable Input type=number arrow/spinner*/
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -109,6 +104,8 @@ input[type=number] {
 #right-column .card-body {
     font-size: .75rem;
 }
+
+/*©[Kelompok 1 PW SI-E 2024]*/
 
 .form-control:focus {
     box-shadow: none;
@@ -173,7 +170,6 @@ header .navbar-brand {
     text-decoration: none; /* Menghilangkan dekorasi tautan */
     transition: background-color 0.3s; /* Efek transisi warna latar belakang */
 }
-
 
 /*Footer Styles*/
 footer {

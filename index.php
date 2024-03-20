@@ -2,6 +2,13 @@
 include_once 'includes/header.php';
 ?>
     <!doctype html>
+    <!--
+        ©[Kelompok 1 PW SI-E 2024]
+        1. Athallah Naufal R. A.
+        2. Adam Javier
+        3. Zahrina Arij
+        4. Fian Ahmad Ardhika
+    -->
     <html lang="id">
     <body>
     <div id="index-outer-container" class="container-fluid">
